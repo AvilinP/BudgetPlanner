@@ -1,0 +1,66 @@
+
+.budget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.budget >h2 {
+    padding-right: 1rem;
+}
+
+#totalBudget {
+    font-size: 26px;
+}
+
+.input-containers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 30vw;
+    padding-right: 30vw;
+
+} 
+
+.add-btn, .clear-btn {
+    height: 40px;
+    width: 80px;
+    border-radius: 1rem 1rem;
+    font-family: futura;
+}
+
+
+.income-expense {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#income {
+    background-color: white;
+    opacity: 0.7;
+    padding: 1rem;
+}
+
+#expense {
+    background-color: white;
+    opacity: 0.7;
+    padding: 1rem;
+}
+
+#income >h2 {
+    padding-bottom: 20px;
+}
+
+#expense >h2 {
+    padding-bottom: 20px;
+}
+

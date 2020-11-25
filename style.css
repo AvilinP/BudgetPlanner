@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  background-color: #f4f1de;
+  font-family: futura;
+  color: #929292; }
+
+ul, li {
+  list-style-type: none; }
+
+.backgroundImage {
+  background-image: url("pictures/thailand_stor.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column; }
+
+.headline {
+  text-align: center;
+  color: white;
+  font-size: 76px;
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+.headline-btn {
+  height: 80px;
+  width: 160px;
+  border-radius: 2rem 2rem;
+  font-family: futura; }
+
+.menu {
+  position: relative;
+  background-color: white;
+  height: 5rem; }
+
+.logo {
+  position: absolute;
+  width: 4rem;
+  left: 1rem;
+  top: 1.5rem; }
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.nav-bar-a {
+  text-decoration: none;
+  padding: 2rem;
+  text-align: center; }
+
+.nav-bar a:hover {
+  color: black; }
+
+a:hover, a:visited, a:link {
+  color: #343a40; }
+
+.budget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem; }
+
+.budget > h2 {
+  padding-right: 1rem; }
+
+#totalBudget {
+  font-size: 26px; }
+
+.input-containers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 30vw;
+  padding-right: 30vw; }
+
+.add-btn, .clear-btn {
+  height: 40px;
+  width: 80px;
+  border-radius: 1rem 1rem;
+  font-family: futura; }
+
+.income-expense {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 30vw;
+  padding-right: 30vw;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#income {
+  background-color: white;
+  opacity: 0.7;
+  padding: 1rem; }
+
+#expense {
+  background-color: white;
+  opacity: 0.7;
+  padding: 1rem; }
+
+#income > h2 {
+  padding-bottom: 20px; }
+
+#expense > h2 {
+  padding-bottom: 20px; }
+
+@media screen and (max-width: 365px) {
+  .logo {
+    width: 10%; }
+  .nav-bar {
+    justify-content: flex-end; }
+  .nav-bar-a {
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    padding-right: 1rem; }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    height: 4rem; }
+  .headline-btn {
+    height: 60px;
+    width: 140px;
+    font-size: 12px; }
+  .budget {
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+  .add-btn, .clear-btn {
+    margin-top: 0.5rem;
+    height: 25px;
+    width: 40px;
+    border-radius: 1rem 1rem;
+    font-family: futura;
+    font-size: 9px; }
+  #income > h2, #expense > h2 {
+    font-size: 16px; }
+  .incomeLista, .expenseLista {
+    font-size: 12px; } }
+
+@media screen and (max-width: 440px) {
+  .logo {
+    width: 10%; }
+  .nav-bar {
+    justify-content: flex-end; }
+  .nav-bar-a {
+    text-decoration: none;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    padding-right: 1rem; }
+  .menu {
+    display: flex;
+    flex-direction: column; }
+  .headline {
+    font-size: 32px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+  .budget {
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+  .budget > h2 {
+    padding-right: 0rem; }
+  #totalBudget {
+    padding-top: 0.5rem;
+    font-size: 18px; }
+  #operator, #description {
+    margin-bottom: 0.5rem; }
+  .add-btn, .clear-btn {
+    margin-top: 0.5rem;
+    height: 40px;
+    width: 60px;
+    border-radius: 1rem 1rem;
+    font-family: futura;
+    font-size: 12px; }
+  .income-expense {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw; } }
+
+@media only screen and (max-width: 1250px) and (min-width: 500px) {
+  .input-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10vw;
+    padding-right: 10vw; }
+  #operator, #description, #value {
+    margin-right: 0.5rem; }
+  .income-expense {
+    padding-left: 10vw;
+    padding-right: 10vw; } }

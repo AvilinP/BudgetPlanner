@@ -1,0 +1,155 @@
+// Mobile Responsive for Iphone 5, SE, Galaxy S5 & Moto G4
+@media screen and (max-width: 365px) {
+    
+    .logo {
+        width: 10%;
+    }
+
+    .nav-bar {
+        justify-content: flex-end;
+    }
+
+    .nav-bar-a {
+        font-size: 12px;
+        text-decoration: none;
+        padding: 0.5rem;
+        padding-top: 1.5rem;
+        padding-right: 1rem;
+    }
+
+    .menu {   
+        display: flex;
+        flex-direction: column;
+        height: 4rem;
+    }
+
+    .headline-btn {
+        height: 60px;
+        width: 140px;
+        font-size: 12px;
+    }
+
+    .budget {
+        font-size: 16px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .add-btn, .clear-btn {
+        margin-top: 0.5rem;
+        height: 25px;
+        width: 40px;
+        border-radius: 1rem 1rem;
+        font-family: futura;
+        font-size: 9px;
+    }
+      
+
+    #income >h2, #expense >h2 {
+        font-size: 16px;
+    }
+
+    .incomeLista, .expenseLista {
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+// Mobile Responsive for Iphone X, 6/7/8 + Plus & Pixel 2 & 2 XL
+@media screen and (max-width: 440px) {
+    
+    .logo {
+        width: 10%;
+    }
+
+    .nav-bar {
+        justify-content: flex-end;
+    }
+
+    .nav-bar-a {
+        text-decoration: none;
+        padding: 0.5rem;
+        padding-top: 1.5rem;
+        padding-right: 1rem;
+    }
+
+    .menu {   
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headline {
+        font-size: 32px;
+        padding-left:0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .budget {
+        font-size: 16px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .budget >h2 {
+        padding-right: 0rem;
+    }
+
+    #totalBudget {
+        padding-top: 0.5rem;
+        font-size: 18px;
+    }
+
+    #operator, #description {
+        margin-bottom: 0.5rem;
+    }
+  
+    .add-btn, .clear-btn {
+        margin-top: 0.5rem;
+        height: 40px;
+        width: 60px;
+        border-radius: 1rem 1rem;
+        font-family: futura;
+        font-size: 12px;
+    }
+
+    .income-expense { 
+        flex-direction: column;
+        justify-content: center; 
+        text-align: center; 
+        padding-left: 10vw;
+        padding-right: 10vw; 
+    }
+    
+}
+
+// Responsive for iPad & iPad Pro
+@media only screen and (max-width: 1250px) and (min-width: 500px) {
+    .input-containers {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 10vw;
+        padding-right: 10vw; 
+    }
+
+    #operator, #description , #value {
+        margin-right: 0.5rem;
+    }
+
+    .income-expense { 
+        padding-left: 10vw;
+        padding-right: 10vw; 
+    }
+
+}
